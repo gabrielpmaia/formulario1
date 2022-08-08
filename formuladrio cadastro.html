@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+                    
+            html, body, div, span, applet, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            a, abbr, acronym, address, big, cite, code,
+            del, dfn, em, img, ins, kbd, q, s, samp,
+            small, strike, strong, sub, sup, tt, var,
+            b, u, i, center,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, embed, 
+            figure, figcaption, footer, header, hgroup, 
+            menu, nav, output, ruby, section, summary,
+            time, mark, audio, video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+                     
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+            font-family: Arial, 'Helvetica', sans-serif;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+ 
+       body{
+        height: 100vh;
+         background: linear-gradient( rgb(20, 134, 240), #000d36);
+         background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+       .container-items{
+
+        height: 400px;
+        width: 400px;
+        background-color:rgb(230, 230, 230);
+        border-radius: 20px;
+        box-shadow: 15px 15px 70px 0px  rgb(40, 122, 199);
+       /* position: absolute;*/
+       /* top: 50%; right: 50%;*/
+       /* transform: translate(50%,-50%);*/
+     
+       
+   }
+  
+   form input{
+  
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 10px;
+  
+   }
+  input:focus {
+    box-shadow: 0  ;
+    outline: 0;
+}
+label{
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 20px;
+    display: block;
+}
+ 
+a.entrar{
+    text-decoration: none;
+    color: rgb(170, 197, 255);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(62, 129, 237);
+    border-radius: 10px;
+   
+}
+a.entrar:hover{
+    text-decoration: none;
+    color: rgb(170, 197, 255);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 36, 95);
+    color: #eee;
+    border-radius: 20px;
+     
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.container-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.nome{
+    margin-bottom: 50px;
+}
+.senha{
+    margin-bottom: 50px;
+}
+label{
+    margin-bottom:10px;
+}
+.entrar{
+    padding: 10px;
+}
+ input{
+    width: 200px;
+  
+ }
+ 
+ .cadastrar{
+    margin-top: 20px;
+ }
+ 
+ </style>
+</head>
+<body>
+  
+    <div class="container-items">
+            <form action="">
+                <label for="" >Nome</label>
+                <input type="text"class="nome" placeholder="digite seu nome">
+                <label for="">Senha</label>
+                <input type="text"class="senha"placeholder="digite sua senha">
+                <a href="" class="entrar">Entrar</a>
+                <a href="" class="cadastrar">Não possuo cadastro</a>
+                
+            </form>    
+        </div>   
+</body>
+</html>
